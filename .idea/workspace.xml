@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62ba81c4-e329-4df9-9f6d-84429c0bd4de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/conexion/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAlumnoGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorCatedraticoGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEspecialidadGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorGrupoGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMateriaGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMenuGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOCatedratico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOEspecialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAOMateria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModeloAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModeloCatedratico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModeloEspecialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModeloGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModeloMateria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/MenuPrincipalGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/MenuPrincipalGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaAlumno.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaCatedratico.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaCatedratico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaEspecialidad.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaEspecialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaGrupo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaMateria.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VistaMateria.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OtSBiD2XSp18CiZxpemNVJHmvN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;245&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ANGEL MANUEL/IdeaProjects/Conexion/src/main/java/vista&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ANGEL MANUEL\IdeaProjects\Conexion\src\main\java\vista" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controlador" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Conexion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62ba81c4-e329-4df9-9f6d-84429c0bd4de" name="Changes" comment="" />
+      <created>1682378257313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682378257313</updated>
+      <workItem from="1682378257419" duration="2691000" />
+      <workItem from="1682394913926" duration="137000" />
+      <workItem from="1682453327828" duration="489000" />
+      <workItem from="1682550462393" duration="2880000" />
+      <workItem from="1682622616490" duration="4548000" />
+      <workItem from="1682628573328" duration="116000" />
+      <workItem from="1682636774661" duration="3189000" />
+      <workItem from="1682719111685" duration="2014000" />
+      <workItem from="1682747471908" duration="2200000" />
+      <workItem from="1682750144576" duration="172000" />
+      <workItem from="1682873377535" duration="285000" />
+      <workItem from="1682875029095" duration="32000" />
+      <workItem from="1682875064464" duration="23000" />
+      <workItem from="1682875246252" duration="20000" />
+      <workItem from="1682876114099" duration="1304000" />
+      <workItem from="1682878195440" duration="25000" />
+      <workItem from="1682878250726" duration="12000" />
+      <workItem from="1682878279670" duration="10000" />
+      <workItem from="1682878930594" duration="25000" />
+      <workItem from="1682903721017" duration="162000" />
+      <workItem from="1682905938957" duration="599000" />
+      <workItem from="1682908468876" duration="2921000" />
+      <workItem from="1682911811179" duration="1000" />
+      <workItem from="1682912308507" duration="249000" />
+      <workItem from="1682912620169" duration="80000" />
+      <workItem from="1682912759034" duration="19000" />
+      <workItem from="1682912912675" duration="43000" />
+      <workItem from="1682914617912" duration="207000" />
+      <workItem from="1682916387168" duration="43000" />
+      <workItem from="1682916523501" duration="13000" />
+      <workItem from="1682916625037" duration="15000" />
+      <workItem from="1682916899716" duration="1939000" />
+      <workItem from="1682976495842" duration="3387000" />
+      <workItem from="1682988462126" duration="4178000" />
+      <workItem from="1682995976996" duration="7116000" />
+      <workItem from="1683037330438" duration="938000" />
+      <workItem from="1683051923186" duration="7950000" />
+      <workItem from="1683069125093" duration="58000" />
+      <workItem from="1683069223075" duration="178000" />
+      <workItem from="1683069579776" duration="1529000" />
+      <workItem from="1683083196403" duration="3310000" />
+      <workItem from="1683086527329" duration="4897000" />
+      <workItem from="1683091715433" duration="13136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

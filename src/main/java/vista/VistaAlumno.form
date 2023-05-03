@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vista.VistaAlumno">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15331995"/>
+      <foreground color="-15331995"/>
+    </properties>
+    <border type="line">
+      <font name="Arial Rounded MT Bold"/>
+      <color color="-14673989"/>
+    </border>
+    <children>
+      <grid id="4cf2b" binding="panelNorte" layout-manager="FlowLayout" hgap="5" vgap="15" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-1708545"/>
+          <foreground color="-15719615"/>
+        </properties>
+        <border type="none">
+          <font name="Arial Narrow" size="14"/>
+          <title-color color="-15719615"/>
+          <color color="-14673989"/>
+        </border>
+        <children>
+          <component id="43884" class="javax.swing.JLabel" binding="lblNumcontrol">
+            <constraints/>
+            <properties>
+              <font name="Arial Narrow"/>
+              <foreground color="-15719615"/>
+              <text value="Num de control:"/>
+            </properties>
+          </component>
+          <component id="8d393" class="javax.swing.JTextField" binding="txfNumecontrol">
+            <constraints/>
+            <properties>
+              <columns value="9"/>
+              <font name="Arial Narrow"/>
+            </properties>
+          </component>
+          <component id="2a92" class="javax.swing.JLabel" binding="lblEspecialidad">
+            <constraints/>
+            <properties>
+              <font name="Arial Narrow"/>
+              <foreground color="-15719615"/>
+              <text value="id de la especialidad:"/>
+            </properties>
+          </component>
+          <component id="88863" class="javax.swing.JTextField" binding="txfEspecialidad">
+            <constraints/>
+            <properties>
+              <columns value="6"/>
+              <font name="Arial Narrow"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="64702" binding="panelSur" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="87b19" class="javax.swing.JButton" binding="nuevoButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <enabled value="true"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Nuevo"/>
+            </properties>
+          </component>
+          <component id="27a86" class="javax.swing.JButton" binding="guardarButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Guardar"/>
+            </properties>
+          </component>
+          <component id="3ddd6" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Salir"/>
+            </properties>
+          </component>
+          <component id="10e3d" class="javax.swing.JButton" binding="eliminarButton">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Eliminar"/>
+            </properties>
+          </component>
+          <component id="7e217" class="javax.swing.JButton" binding="actualizarButton">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Actualizar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7bcb6" binding="panelCentral" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c97" class="javax.swing.JLabel" binding="lblNombre">
+            <constraints/>
+            <properties>
+              <font name="Arial Narrow"/>
+              <foreground color="-15719615"/>
+              <text value="Nombre del alumno:"/>
+            </properties>
+          </component>
+          <hspacer id="82bb8">
+            <constraints/>
+          </hspacer>
+          <hspacer id="14fce">
+            <constraints/>
+          </hspacer>
+          <hspacer id="1e4b2">
+            <constraints/>
+          </hspacer>
+          <component id="869f5" class="javax.swing.JTextField" binding="txfNombre">
+            <constraints/>
+            <properties>
+              <columns value="24"/>
+              <font name="Arial Narrow"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

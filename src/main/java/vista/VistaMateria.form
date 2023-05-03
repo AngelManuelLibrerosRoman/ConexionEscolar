@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vista.VistaMateria">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="line">
+      <color color="-14673989"/>
+    </border>
+    <children>
+      <grid id="f9832" binding="panelNorte" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9db24" class="javax.swing.JLabel" binding="lblaidi">
+            <constraints/>
+            <properties>
+              <font name="Arial Narrow"/>
+              <foreground color="-15719615"/>
+              <text value="id de la materia: "/>
+            </properties>
+          </component>
+          <component id="edf83" class="javax.swing.JTextField" binding="txfid">
+            <constraints/>
+            <properties>
+              <columns value="5"/>
+              <font name="Arial Narrow"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a03f8" binding="panelSur" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5e591" class="javax.swing.JButton" binding="nuevoButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Nuevo"/>
+            </properties>
+          </component>
+          <component id="bd449" class="javax.swing.JButton" binding="guardarButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Guardar"/>
+            </properties>
+          </component>
+          <component id="7c607" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Salir"/>
+            </properties>
+          </component>
+          <component id="69b14" class="javax.swing.JButton" binding="eliminarButton">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Eliminar"/>
+            </properties>
+          </component>
+          <component id="dcb22" class="javax.swing.JButton" binding="actualizarButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Actualizar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1ecd7" binding="panelCentral" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9afb2" class="javax.swing.JLabel" binding="lblMateria">
+            <constraints/>
+            <properties>
+              <font name="Arial Narrow"/>
+              <foreground color="-15719615"/>
+              <text value="Materia:"/>
+            </properties>
+          </component>
+          <component id="d929b" class="javax.swing.JTextField" binding="txfMateria">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+              <font name="Arial Narrow"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

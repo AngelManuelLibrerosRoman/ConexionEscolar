@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vista.MenuPrincipalGUI">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5384209"/>
+      <foreground color="-460552"/>
+    </properties>
+    <border type="none">
+      <color color="-14673989"/>
+    </border>
+    <children>
+      <grid id="a1415" binding="panelSur" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="67e9f" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Nuevo"/>
+            </properties>
+          </component>
+          <component id="13645" class="javax.swing.JButton" binding="mostrarButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-15331995"/>
+              <font name="Arial Narrow" style="1"/>
+              <foreground color="-589830"/>
+              <text value="Mostrar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d9bc7" binding="panelCentral" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1708545"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
